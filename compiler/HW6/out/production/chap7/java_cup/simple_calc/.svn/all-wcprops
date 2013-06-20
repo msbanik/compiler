@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/msbaniksvn/!svn/ver/227/course/compiler/HW6/out/production/chap7/java_cup/simple_calc
+END
+parser.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/msbaniksvn/!svn/ver/227/course/compiler/HW6/out/production/chap7/java_cup/simple_calc/parser.class
+END
+CUP$parser$actions.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/msbaniksvn/!svn/ver/227/course/compiler/HW6/out/production/chap7/java_cup/simple_calc/CUP$parser$actions.class
+END
+parser.cup
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/msbaniksvn/!svn/ver/227/course/compiler/HW6/out/production/chap7/java_cup/simple_calc/parser.cup
+END
+Main.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/msbaniksvn/!svn/ver/227/course/compiler/HW6/out/production/chap7/java_cup/simple_calc/Main.class
+END
+sym.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/msbaniksvn/!svn/ver/227/course/compiler/HW6/out/production/chap7/java_cup/simple_calc/sym.class
+END
+scanner.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/msbaniksvn/!svn/ver/227/course/compiler/HW6/out/production/chap7/java_cup/simple_calc/scanner.class
+END

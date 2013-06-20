@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/out/production/hw6/parse
+END
+MiniJava.lex
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/out/production/hw6/parse/MiniJava.lex
+END
+Grm.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/out/production/hw6/parse/Grm.class
+END
+CUP$Grm$actions.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/out/production/hw6/parse/CUP$Grm$actions.class
+END
+Grm.cup
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/out/production/hw6/parse/Grm.cup
+END
+Grm.out
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/out/production/hw6/parse/Grm.out
+END
+Grm.err
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/out/production/hw6/parse/Grm.err
+END
+sym.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/out/production/hw6/parse/sym.class
+END
+Parse.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/out/production/hw6/parse/Parse.class
+END
+Yylex.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/out/production/hw6/parse/Yylex.class
+END

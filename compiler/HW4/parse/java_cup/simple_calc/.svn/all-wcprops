@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/msbaniksvn/!svn/ver/212/course/compiler/HW4/parse/java_cup/simple_calc
+END
+parser.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/msbaniksvn/!svn/ver/212/course/compiler/HW4/parse/java_cup/simple_calc/parser.class
+END
+CUP$parser$actions.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/msbaniksvn/!svn/ver/212/course/compiler/HW4/parse/java_cup/simple_calc/CUP$parser$actions.class
+END
+parser.cup
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/msbaniksvn/!svn/ver/212/course/compiler/HW4/parse/java_cup/simple_calc/parser.cup
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/msbaniksvn/!svn/ver/212/course/compiler/HW4/parse/java_cup/simple_calc/Main.java
+END
+Main.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/msbaniksvn/!svn/ver/212/course/compiler/HW4/parse/java_cup/simple_calc/Main.class
+END
+sym.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/msbaniksvn/!svn/ver/212/course/compiler/HW4/parse/java_cup/simple_calc/sym.java
+END
+scanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/msbaniksvn/!svn/ver/212/course/compiler/HW4/parse/java_cup/simple_calc/scanner.java
+END
+parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/msbaniksvn/!svn/ver/212/course/compiler/HW4/parse/java_cup/simple_calc/parser.java
+END
+sym.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/msbaniksvn/!svn/ver/212/course/compiler/HW4/parse/java_cup/simple_calc/sym.class
+END
+scanner.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/msbaniksvn/!svn/ver/212/course/compiler/HW4/parse/java_cup/simple_calc/scanner.class
+END

@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="543719f7-97ba-41ab-ac3f-81f563dae6da" name="Default" comment="" />
+    <ignored path="chap7.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/TranslatorVisitor.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120467769" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/simple_calc/sym.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120867198" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/simple_calc/scanner.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873787" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/simple_calc/parser.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873468" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/runtime/Symbol.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120867199" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/runtime/virtual_parse_stack.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120867199" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/simple_calc/Main.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120867199" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/runtime/Scanner.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120867199" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/runtime/lr_parser.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873787" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/version.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120867749" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/terminal_set.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873468" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/symbol_part.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120868629" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/terminal.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873787" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/symbol_set.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873468" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/production.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873468" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/shift_action.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120868629" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/symbol.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120868629" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/sym.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120868629" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/reduce_action.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120868629" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/production_part.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120868629" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/parser.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873468" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/parse_action_row.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873787" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/parse_action.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120869692" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/nonassoc_action.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120869692" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/non_terminal.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873787" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/parse_reduce_table.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120869692" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/Main.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120869693" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/parse_reduce_row.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120869692" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/parse_action_table.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873787" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/lexer.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873468" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/lr_item_core.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120869693" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/lalr_state.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873787" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/lalr_transition.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120869693" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/internal_error.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120870927" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/lalr_item_set.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873468" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/emit.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120870927" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/lalr_item.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120873787" ignored="false" />
+    <file path="$PROJECT_DIR$/JLex/Main.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120871561" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/action_production.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120870927" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/assoc.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120870927" ignored="false" />
+    <file path="$PROJECT_DIR$/java_cup/action_part.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120870927" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Times.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/True.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Type.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/VarDecl.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/VarDeclList.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/While.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Identifier.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/IdentifierExp.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/IdentifierType.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/If.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/IntArrayType.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/IntegerLiteral.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/IntegerType.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/LessThan.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/MainClass.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/MethodDecl.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/MethodDeclList.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Minus.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/NewArray.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/NewObject.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Not.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Plus.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Print.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Program.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Statement.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/StatementList.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/This.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872074" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Call.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/ClassDecl.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/ClassDeclExtends.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/ClassDeclList.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/ClassDeclSimple.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Exp.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/ExpList.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/False.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Formal.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/FormalList.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/And.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/ArrayAssign.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/ArrayLength.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/ArrayLookup.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Assign.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/Block.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/syntaxtree/BooleanType.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872571" ignored="false" />
+    <file path="$PROJECT_DIR$/util/BoolList.java" changelist="543719f7-97ba-41ab-ac3f-81f563dae6da" time="1365120872693" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="chap7" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="TranslatorVisitor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/semant/TranslatorVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="181" column="20" selection-start="4964" selection-end="4964" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="19" selection-start="394" selection-end="394" vertical-scroll-proportion="0.5870504">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/semant/Exp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="1" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Access.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frame/Access.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="22" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccessList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frame/AccessList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Frame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frame/Frame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="22" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="14" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parse/Parse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SparcFrame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparc/SparcFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="22" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Yylex.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parse/Yylex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="21" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/semant/Exp.java" />
+        <option value="$PROJECT_DIR$/semant/TranslatorVisitor.java" />
+        <option value="$PROJECT_DIR$/Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SparcFrame.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="semant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chap7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="errormsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Default_(Template)_Project" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64196" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Remote">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64197" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoogleAppEngineDevServer" factoryName="Local">
+      <server-settings />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Default_(Template)_Project_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64198" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64199" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23743922" sideWeight="0.6702413" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tree/StmList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/TEMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="10" selection-start="199" selection-end="199" vertical-scroll-proportion="0.2125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semant/TypeCheckVisitor.java.orig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-10.710042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errormsg/ErrorMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="1" selection-start="2863" selection-end="2863" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame/Access.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame/AccessList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="14" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse/Yylex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="21" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse/MiniJava.lex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse/Grm.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparc/SparcFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="22" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semant/Exp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semant/TranslatorVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="20" selection-start="4964" selection-end="4964" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="19" selection-start="394" selection-end="394" vertical-scroll-proportion="0.5870504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

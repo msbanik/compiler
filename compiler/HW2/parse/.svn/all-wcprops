@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/msbaniksvn/!svn/ver/210/course/compiler/hw2/parse
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/msbaniksvn/!svn/ver/164/course/compiler/hw2/parse/Main.java
+END
+MiniJava.lex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/msbaniksvn/!svn/ver/210/course/compiler/hw2/parse/MiniJava.lex
+END
+Main.class
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/msbaniksvn/!svn/ver/164/course/compiler/hw2/parse/Main.class
+END
+sym.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/msbaniksvn/!svn/ver/164/course/compiler/hw2/parse/sym.java
+END
+Yylex.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/msbaniksvn/!svn/ver/170/course/compiler/hw2/parse/Yylex.java
+END
+sym.class
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/msbaniksvn/!svn/ver/164/course/compiler/hw2/parse/sym.class
+END
+Yylex.class
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/msbaniksvn/!svn/ver/170/course/compiler/hw2/parse/Yylex.class
+END

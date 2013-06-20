@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/msbaniksvn/!svn/ver/210/course/compiler/hw2
+END
+test.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/msbaniksvn/!svn/ver/164/course/compiler/hw2/test.java
+END
+classpath
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/msbaniksvn/!svn/ver/164/course/compiler/hw2/classpath
+END
+Factorial.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/msbaniksvn/!svn/ver/170/course/compiler/hw2/Factorial.java
+END
+test.out
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/msbaniksvn/!svn/ver/170/course/compiler/hw2/test.out
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/msbaniksvn/!svn/ver/164/course/compiler/hw2/makefile
+END

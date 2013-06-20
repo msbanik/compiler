@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/msbaniksvn/!svn/ver/281/course/compiler/HW7_new
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/msbaniksvn/!svn/ver/281/course/compiler/HW7_new/Test.java
+END
+hw6.iml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/hw6.iml
+END
+Test.AST
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/Test.AST
+END
+Test.out1
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/Test.out1
+END
+Test.out2
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/Test.out2
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/msbaniksvn/!svn/ver/278/course/compiler/HW7_new/makefile
+END

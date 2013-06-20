@@ -1,0 +1,241 @@
+
+//Mahmudur Rahman, Madhusudan Banik, and George Burri
+
+//MiniJava Abstract Syntax
+
+//*************************  Assignment 4  ****************************
+
+/*Comments: 
+1. Although ID has been declared as string, it still needs to use toString() function
+for the rule Type= ID:id
+2. Some rule changes from previous code
+3. Some positions don't match comparing the output file Preced.out given by Prof. I think it's fine.
+*/
+
+/*
+Version change: 
+1. ExpS introduced, ExpRest removed
+2. Precedences were cleaned up
+3. Actions were added to build the abstract syntax tree
+*/
+
+
+package parse;
+
+import syntaxtree.*;
+
+action code {:
+
+  // An abbreviation for creating identifiers.
+  static Identifier id(String s) {
+    return new Identifier(s);
+  }
+
+:};
+
+parser code {: 
+    errormsg.ErrorMsg errorMsg;
+
+    public void syntax_error(java_cup.runtime.Symbol current) {
+      report_error("Syntax error (" + current.sym + ")", current);
+    }
+
+    public void report_error(String message, java_cup.runtime.Symbol info) {
+      errorMsg.error(info.left, message);
+    }
+
+    public Grm(java_cup.runtime.Scanner scan, errormsg.ErrorMsg err) {
+      this(scan);
+      errorMsg = err;
+    }
+:};
+
+/* terminal declarations */
+
+terminal String ID;
+terminal Integer INTEGER_LITERAL;
+terminal CLASS, PUBLIC, STATIC, VOID, MAIN, STRING, RETURN,
+	INT, BOOLEAN, IF, ELSE, WHILE, PRINTLN, LENGTH,
+	TRUE, FALSE, THIS, NEW, LT,
+	LBRACE, RBRACE, LPAREN, RPAREN, LBRACK, RBRACK,
+	SEMICOLON, COMMA, ASSIGN, AND, PLUS, MINUS, TIMES,
+	DOT, EXCLAMATION;
+
+/* non terminal declarations */ 
+
+non terminal syntaxtree.Program             program;
+non terminal syntaxtree.MainClass           mainClass;
+non terminal syntaxtree.ClassDeclSimple     classDecl;
+non terminal syntaxtree.ClassDeclList       classDeclList;
+non terminal syntaxtree.MethodDecl          methodDecl;
+non terminal syntaxtree.MethodDeclList      methodDeclList;
+non terminal syntaxtree.VarDecl             varDecl;
+non terminal syntaxtree.VarDeclList         varDeclList;
+non terminal syntaxtree.Statement           statement;
+non terminal syntaxtree.StatementList       statementS;
+non terminal syntaxtree.StatementList       statementList;
+non terminal syntaxtree.Type                type;
+non terminal syntaxtree.Formal              formal;
+non terminal syntaxtree.FormalList          formalList;
+non terminal syntaxtree.FormalList          formalS;
+non terminal syntaxtree.Exp                 expr;
+non terminal syntaxtree.ExpList             expList;
+non terminal syntaxtree.ExpList             expS;               //Introducing new non terminal; another tricky part; 
+                                                                //change from previous code
+
+/* precedence and associativity of operators */ 
+
+precedence left AND;                            //binary left
+precedence left LT;                             //binary left
+precedence left PLUS, MINUS;                    //binary left
+precedence left TIMES;                          //binary left 
+precedence left EXCLAMATION;                    //unary left no matter                
+precedence left LBRACK, DOT;                    //should be in the same level
+
+/* The Grammar and Actions*/
+
+start with program;
+
+program 		::=	mainClass:mc classDeclList:cd
+				{: RESULT = new Program(mcleft, mc, cd); :}
+			;
+
+mainClass		::=	CLASS ID:id1 LBRACE PUBLIC STATIC VOID MAIN
+				LPAREN STRING LBRACK RBRACK ID:id2 RPAREN
+				LBRACE statement:st RBRACE RBRACE
+				{: RESULT = new MainClass(id1left, id(id1), id(id2), st); :}
+			;
+
+classDeclList           ::=	classDeclList:cdl classDecl:cd                      
+				{: cdl.addElement(cd); RESULT = cdl; :}
+		  	|	/*Epsilon Rule*/
+				{: RESULT = new ClassDeclList(); :}
+		  	;
+
+classDecl               ::=	CLASS ID:id LBRACE varDeclList:vdl methodDeclList:mdl RBRACE
+				{: RESULT = new ClassDeclSimple(idleft, id(id), vdl, mdl); :}
+			;
+
+methodDeclList          ::=	methodDeclList:mdl methodDecl:md
+				{: mdl.addElement(md); RESULT = mdl; :}
+		  	|	/*Epsilon Rule*/
+				{: RESULT = new MethodDeclList(); :}
+		 	;
+
+methodDecl		::=	PUBLIC type:t ID:id LPAREN formalS:fs RPAREN
+				LBRACE varDeclList:vdl statementS:st RETURN expr:e SEMICOLON RBRACE
+				{: RESULT = new MethodDecl(idleft, t, id(id), fs, vdl, st, e); :}
+                        ;
+
+varDeclList		::=	varDeclList:vdl varDecl:vd
+				{: vdl.addElement(vd); RESULT = vdl; :}
+		  	|	/*Epsilon Rule*/
+				{: RESULT = new VarDeclList(); :}
+		  	;
+
+varDecl                 ::=	type:t ID:id SEMICOLON
+				{: RESULT = new VarDecl(idleft, t, id(id)); :}
+		  	;
+
+formalList		::=	formalList:fl COMMA formal:f
+				{: fl.addElement(f); RESULT = fl; :}
+		  	|	formal:f
+				{: FormalList fl = new FormalList(); fl.addElement(f); RESULT = fl; :}
+			;
+
+formalS                 ::=	formalList:fl
+				{: RESULT = fl; :}
+		  	|	/*Epsilon Rule*/
+				{: RESULT = new FormalList(); :}
+		  	;
+
+formal                  ::=	type:t ID:id
+				{: RESULT = new Formal(idleft, t, id(id)); :}
+			;
+
+type			::=	INT:i LBRACK RBRACK
+				{: RESULT = new IntArrayType(ileft); :}
+			|	BOOLEAN:b
+				{: RESULT = new BooleanType(bleft); :}
+		  	|	INT:i
+				{: RESULT = new IntegerType(ileft); :}
+		  	|	ID:id
+				{: RESULT = new IdentifierType(idleft, id(id).toString()); :}
+		  	;
+
+statementList           ::=	statementList:stl statement:st  
+                                {: stl.addElement(st); RESULT = stl; :}
+		  	|	statement:st
+				{: StatementList stl = new StatementList(); stl.addElement(st); RESULT = stl; :}
+		  	;
+
+statementS              ::=	statementList:stl
+				{: RESULT = stl; :}
+		  	|	/*Epsilon Rule*/
+				{: RESULT = new StatementList(); :}
+		  	;
+
+statement		::=	LBRACE statementS:ss RBRACE
+				{: RESULT = new Block(ssleft, ss); :}
+		  	|	IF:i LPAREN expr:e RPAREN statement:st1 ELSE statement:st2
+				{: RESULT = new If(ileft, e, st1, st2); :}
+		  	|	WHILE:wh LPAREN expr:e RPAREN statement:st
+				{: RESULT = new While(whleft, e, st); :}
+		  	|	PRINTLN:pl LPAREN expr:e RPAREN SEMICOLON
+				{: RESULT = new Print(plleft, e); :}
+		  	|	ID:id ASSIGN expr:e SEMICOLON
+				{: RESULT = new Assign(idleft, id(id), e); :}
+		  	|	ID:id LBRACK expr:e1 RBRACK ASSIGN expr:e2 SEMICOLON
+				{: RESULT = new ArrayAssign(idleft, id(id), e1, e2); :}
+		  	;
+
+expr			::=	expr:e1 AND:a expr:e2
+				{: RESULT = new And(aleft, e1, e2); :}
+                        |       expr:e1 LT:lt expr:e2
+				{: RESULT = new LessThan(ltleft, e1, e2); :}	
+                        |       expr:e1 PLUS:pl expr:e2
+				{: RESULT = new Plus(plleft, e1, e2); :}
+		  	|	expr:e1 MINUS:mn expr:e2
+				{: RESULT = new Minus(mnleft, e1, e2); :}
+		  	|	expr:e1 TIMES:t expr:e2
+				{: RESULT = new Times(tleft, e1, e2); :}      
+		  	|	expr:e1 LBRACK expr:e2 RBRACK
+				{: RESULT = new ArrayLookup(e1left, e1, e2); :}
+		  	|	expr:e DOT LENGTH
+				{: RESULT = new ArrayLength(eleft, e); :}
+		  	|	expr:e DOT ID:id LPAREN expS:es RPAREN
+				{: RESULT = new Call(idleft, e, id(id), es); :}
+		  	|	INTEGER_LITERAL:il
+				{: RESULT = new IntegerLiteral(illeft,il); :}
+		  	|	TRUE:t
+				{: RESULT = new True(tleft); :}
+		  	|	FALSE:f
+				{: RESULT = new False(fleft); :}
+		  	|	ID:id
+				{: RESULT = new IdentifierExp(idleft, id); :}
+		  	|	THIS:t
+				{: RESULT = new This(tleft); :}
+		  	|	NEW:n INT LBRACK expr:e RBRACK
+				{: RESULT = new NewArray(nleft, e); :}
+		  	|	NEW:n ID:id LPAREN RPAREN
+				{: RESULT = new NewObject(nleft, id(id)); :}
+		  	|	EXCLAMATION:ex expr:e
+				{: RESULT = new Not(exleft, e); :}
+		  	|	LPAREN expr:e RPAREN
+				{: RESULT = e; :}
+		  	;
+
+expS                    ::=	expList:el                                      //needed to change the expRest rule with the expStar, little tweak needed to run the code
+				{: RESULT = el; :}
+		  	|	/*Epsilon Rule*/
+				{: RESULT = new ExpList(); :}
+		  	;
+
+expList                 ::=	expList:el COMMA expr:e
+                                {: el.addElement(e); RESULT = el; :}
+		  	|	expr:e
+				{: ExpList el = new ExpList(); el.addElement(e); RESULT = el; :}
+		  	;
+
+
+//**********************************END****************************************
